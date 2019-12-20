@@ -20,7 +20,7 @@ b2_api.authorize_account("production", application_key_id, application_key)
 bucket = b2_api.get_bucket_by_name("resourcesExchanger")
 author = " "
 
-conn = psycopg2.connect(host="localhost", database="resourcesExchanger", user="postgres", password="tiger")
+conn = psycopg2.connect(host="localhost", database="resourcesExchanger", user="*******", password="*******")
 
 app = Flask(__name__)
 auth = HTTPBasicAuth()
